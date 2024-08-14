@@ -105,6 +105,21 @@ header{
 .destinations{
     max-width: 1250px;
     margin: 0 auto;
+    display: flex;
     
+}
+.destination-description h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.destination-description{
+    width: 50%;
+}
+.destination-description button{
+    margin-top: 50px;
+}
+.destination-image{
+    width: 50%;
+    margin-left: 160px;
 }
 /* destinations ends here */
